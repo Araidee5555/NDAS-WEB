@@ -14,8 +14,8 @@
     <form method="post" action="register.php">
       <div class="input-group">
          <i class="fas fa-user"></i>
-         <input type="text" name="fName" id="fName" placeholder="ชื่อ นามสกุล สายรหัส เลขบัตรประชาชน" required>
-         <label for="fname">ชื่อ นามสกุล สายรหัส เลขบัตรประชาชน</label>
+         <input type="text" name="fName" id="fName" placeholder="First Name" required>
+         <label for="fname">First Name</label>
       </div>
       <div class="input-group">
         <i class="fas fa-envelope"></i>
@@ -24,8 +24,8 @@
     </div>
       <div class="input-group">
         <i class="fas fa-lock"></i>
-        <input type="password" name="password" id="password" placeholder="รหัสผ่าน" required>
-        <label for="password">รหัสผ่าน</label>
+        <input type="password" name="password" id="password" placeholder="Password" required>
+        <label for="password">Password</label>
       </div>
       <input type="submit" class="btn" value="ลงทะเบียน" name="signUp">
     </form>
@@ -46,8 +46,8 @@
     </div>
       <div class="input-group">
           <i class="fas fa-lock"></i>
-          <input type="password" name="password" id="password" placeholder="รหัสผ่าน" required>
-          <label for="password">รหัสผ่าน</label>
+          <input type="password" name="password" id="password" placeholder="Password" required>
+          <label for="password">Password</label>
       </div>
       <p class="recover">
         <a href="#">
