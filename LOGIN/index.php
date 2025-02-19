@@ -1,4 +1,5 @@
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -37,7 +38,7 @@
   </div>
 
   <div class="container" id="signIn">
-    <h1 class="form-title">ลงชื่อเข้าใช้</h1>
+    <h1 class="form-title">Sign In</h1>
     <form method="post" action="register.php">
       <div class="input-group">
         <i class="fas fa-envelope"></i>
@@ -52,7 +53,7 @@
       <p class="recover">
         <a href="#">Recover Password</a>
       </p>
-     <input type="submit" class="btn" value="ลงชื่อเข้าใช้" name="signIn">
+     <input type="submit" class="btn" value="Sign In" name="signIn">
     </form>
 
     <div class="links">
