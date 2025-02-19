@@ -10,7 +10,7 @@
 </head>
 <body>
   <div class="container" id="signup" style="display: none;">
-    <h1 class="form-title">ลงทะเบียน</h1>
+    <h1 class="form-title">Register</h1>
     <form method="post" action="register.php">
       <div class="input-group">
          <i class="fas fa-user"></i>
@@ -27,12 +27,12 @@
         <input type="password" name="password" id="password" placeholder="Password" required>
         <label for="password">Password</label>
       </div>
-      <input type="submit" class="btn" value="ลงทะเบียน" name="signUp">
+      <input type="submit" class="btn" value="Sign Up" name="signUp">
     </form>
 
     <div class="links">
-      <p>มีบัญชีแล้ว?</p>
-      <button id="signInButton">ลงชื่อเข้าใช้</button>
+      <p>Already Have Account ?</p>
+        <button id="signInButton">Sign In</button>
     </div>
   </div>
 
@@ -50,15 +50,14 @@
           <label for="password">Password</label>
       </div>
       <p class="recover">
-        <a href="#">
-          กู้คืนรหัสผ่าน</a>
+        <a href="#">Recover Password</a>
       </p>
      <input type="submit" class="btn" value="ลงชื่อเข้าใช้" name="signIn">
     </form>
 
     <div class="links">
-      <p>ยังไม่มีบัญขี?</p>
-      <button id="signUpButton">ลงทะเบียน</button>
+      <p>Don't have account yet?</p>
+      <button id="signUpButton">Sign Up</button>
     </div>
   </div>
   <script src="script.js"></script>
